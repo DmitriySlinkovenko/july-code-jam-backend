@@ -20,19 +20,19 @@ module.exports.validateCardBody = celebrate({
     ingredient1: Joi.string().required().messages({
       "string.empty": "Field is required",
     }),
-    ingredient1: Joi.string().messages({
+    ingredient2: Joi.string().messages({
       "string.empty": "Field is empty",
     }),
-    ingredient1: Joi.string().messages({
+    ingredient3: Joi.string().messages({
       "string.empty": "Field is empty",
     }),
-    ingredient1: Joi.string().messages({
+    ingredient4: Joi.string().messages({
       "string.empty": "Field is empty",
     }),
-    ingredient1: Joi.string().messages({
+    ingredient5: Joi.string().messages({
       "string.empty": "Field is empty",
     }),
-    ingredient1: Joi.string().messages({
+    ingredient6: Joi.string().messages({
       "string.empty": "Field is empty",
     }),
   }),
