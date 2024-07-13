@@ -40,6 +40,5 @@ function getItems(req, res, next) {
 
 module.exports = {
   getItems,
-  deleteItem,
   createItem,
 };
