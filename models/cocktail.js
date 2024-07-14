@@ -11,27 +11,16 @@ const cocktailSchema = new mongoose.Schema(
     ingredient1: {
       type: String,
       required: true,
-      minlength: 2,
     },
     ingredient2: {
       type: String,
-      minlength: 2,
+      required: true,
     },
     ingredient3: {
       type: String,
-      minlength: 2,
     },
     ingredient4: {
       type: String,
-      minlength: 2,
-    },
-    ingredient5: {
-      type: String,
-      minlength: 2,
-    },
-    ingredient6: {
-      type: String,
-      minlength: 2,
     },
     imageLink: {
       type: String,

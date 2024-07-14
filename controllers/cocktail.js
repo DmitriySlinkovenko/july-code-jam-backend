@@ -9,8 +9,6 @@ const createItem = (req, res, next) => {
     ingredient2,
     ingredient3,
     ingredient4,
-    ingredient5,
-    ingredient6,
     imageLink,
   } = req.body;
   Cocktails.create({
@@ -19,8 +17,6 @@ const createItem = (req, res, next) => {
     ingredient2,
     ingredient3,
     ingredient4,
-    ingredient5,
-    ingredient6,
     imageLink,
   })
     .then((item) => res.status(200).send({ item }))
