@@ -10,7 +10,7 @@ const validateURL = (value, helpers) => {
 
 module.exports.validateCardBody = celebrate({
   body: Joi.object().keys({
-    imageUrl: Joi.string().required().custom(validateURL).messages({
+    imageLink: Joi.string().required().custom(validateURL).messages({
       "string.empty": 'The "imageUrl" field must be filled in',
       "string.uri": 'the "imageUrl" field must be a valid url',
     }),

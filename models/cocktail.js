@@ -33,7 +33,7 @@ const cocktailSchema = new mongoose.Schema(
       type: String,
       minlength: 2,
     },
-    imageUrl: {
+    imageLink: {
       type: String,
       required: true,
       validate: {

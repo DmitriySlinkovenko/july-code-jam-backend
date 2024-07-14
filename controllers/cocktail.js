@@ -11,7 +11,7 @@ const createItem = (req, res, next) => {
     ingredient4,
     ingredient5,
     ingredient6,
-    imageUrl,
+    imageLink,
   } = req.body;
   Cocktails.create({
     title,
@@ -21,7 +21,7 @@ const createItem = (req, res, next) => {
     ingredient4,
     ingredient5,
     ingredient6,
-    imageUrl,
+    imageLink,
   })
     .then((item) => res.status(200).send({ item }))
     .catch((err) => {
